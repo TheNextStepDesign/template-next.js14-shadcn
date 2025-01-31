@@ -54,7 +54,14 @@ module.exports = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		  fontSize: {
+			base: 'var(--font-base)',           // Default base: 16px
+			paragraph: 'var(--font-paragraph)', // Paragraph: 18px
+			h1: 'var(--font-h1)',               // Heading 1: 40px
+			h2: 'var(--font-h2)',               // Heading 2: 30px
+			h3: 'var(--font-h3)',               // Heading 3: 20px
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],
